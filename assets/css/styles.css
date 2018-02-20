@@ -1,29 +1,14 @@
 /*General Styles*/
 * {
-
     box-sizing: border-box;
 }
 
-
-
 html {
-  /* box-sizing: border-box; */
   color: #555;
   background-color: #000;
 }
 *, *:before, *:after {
   box-sizing: inherit;
-}
-
-
-
-a.btn {
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    background-color: #3f51b5;
-    opacity: 1;
 }
 
 section {
@@ -36,14 +21,6 @@ section {
 section:not(.patty):nth-child(even) {
     background-color: #f5f5f5;
 }
-
-.grid {
-    width: 100%;
-    display: flex;;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 
 section h3 {
     text-transform: capitalize;
@@ -69,11 +46,11 @@ section p {
 
 /*Navbar Styles*/
 nav {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 35px 100px 0;
+    padding-bottom: 15px;
     animation: 1s fadein 0.5s forwards;
     opacity: 0;
     color: #fff;
@@ -115,7 +92,7 @@ nav a {
         justify-content: center;
     }
     nav a {
-        /* margin-bottom: 3px; */
+        /* margin-bottom: 13px; */
     }
 }
 
@@ -170,7 +147,7 @@ nav a {
     }
     .patty h1 {
         margin-top: 50px;
-        font-size: 35px;
+        font-size: 25px;
     }
     .patty h3 {
         font-size: 24px;
@@ -270,9 +247,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #607b8d;
-    color: #fff;
+    background-color: #40e0d0;
     text-decoration: none;
+    font: normal 14px 'Spectral SC', serif;
+    color: #a8360a;
 
 }
 
@@ -289,8 +267,6 @@ footer ul li {
 
 footer p {
     text-transform: uppercase;
-
-    font-size: 14px;
     opacity: 0.6;
     align-self: center;
 }
