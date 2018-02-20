@@ -87,8 +87,9 @@ nav a {
 
 @media (max-width: 600px) {
     nav {
-        padding: 10px 10px;
-        flex-direction: column;
+        /* padding: 10px 10px; */
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
     nav a {
