@@ -247,7 +247,7 @@ img {
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     background-color: #40e0d0;
     text-decoration: none;
     font: normal 14px 'Spectral SC', serif;
@@ -270,7 +270,7 @@ footer p {
     text-transform: uppercase;
     opacity: 0.6;
     align-self: center;
-    margin-top: 10px;
+
 }
 
 @media (max-width: 1100px;) {
